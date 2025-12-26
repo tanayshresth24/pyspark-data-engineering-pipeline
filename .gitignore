@@ -21,3 +21,15 @@ venv/
 resources/dev/config.py
 resources/prod/config.py
 *.env
+
+# secrets
+resources/dev/config.py
+.env
+
+# Environment-specific configs (contain secrets)
+resources/dev/config.py
+resources/qa/config.py
+resources/prod/config.py
+
+# Environment variables
+.env
