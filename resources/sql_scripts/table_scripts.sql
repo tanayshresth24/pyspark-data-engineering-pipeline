@@ -5,7 +5,7 @@ CREATE TABLE product_staging_table (
     created_date TIMESTAMP ,
     updated_date TIMESTAMP ,
     status VARCHAR(1)
-);
+); 
 
 
 CREATE TABLE customer (
